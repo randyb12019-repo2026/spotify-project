@@ -107,6 +107,21 @@ CREATE TABLE artists (
     followers BIGINT,
     popularity INT
 );
+
+CREATE TABLE tracks (
+    id VARCHAR(22) PRIMARY KEY,
+    name VARCHAR(600),
+    popularity TINYINT,
+    duration_ms INT,
+    explicit BOOLEAN,
+    id_artists VARCHAR(22),
+    release_date VARCHAR(10),
+    danceability DECIMAL(5,3),
+    energy DECIMAL(5,3),
+    tempo DECIMAL(6,3),
+
+    FOREIGN KEY (id_artists) REFERENCES artists(id)
+);
 ```
 
 ---
