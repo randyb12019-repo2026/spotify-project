@@ -1,0 +1,9 @@
+Los ficheros csv origen (artists.csv y tracks.csv) contenidos en la carpeta "data/" 
+no se encuentran presentes, se deben descargar desde el enlace Kaggle contenido en el README.md
+
+Los CSV generados en el proyecto 
+(artists_limpio.csv, traks_con_error_fk.csv,tracks_limpio.csv,tracks_para_cargar.csv) 
+no estan incluidos. Se generan ejecutando el fichero proyecto_final_modulo2.ipynb (Notebook)
+
+Los ficheros deben guardarse en esta carpeta obligatoriamente para poder ejecutarse correctamente 
+el proyecto

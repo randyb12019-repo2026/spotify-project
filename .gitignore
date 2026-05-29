@@ -139,8 +139,9 @@ venv.bak/
 # Ignorar contenido de data
 data/*
 
-# Mantener la carpeta
+# Mantener la carpeta y el archivo informativo
 !data/.gitkeep
+!data/informacion.txt
 
 # Spyder project settings
 .spyderproject
