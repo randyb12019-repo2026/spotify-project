@@ -58,7 +58,7 @@ div[data-testid="stMetric"] {
 
 @st.cache_data
 def load_data():
-    return pd.read_pickle("dataset_analitico_limpio.pkl")
+    return pd.read_pickle("dataset/dataset_analitico_limpio.pkl")
 
 
 df = load_data()
