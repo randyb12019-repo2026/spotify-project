@@ -110,7 +110,7 @@ st.subheader("Métricas principales")
 col1, col2, col3, col4 = st.columns(4)
 
 col1.metric("Canciones", f"{len(df_f):,}")
-col2.metric("Artistas", f"{df_f['artist_id'].nunique():,}")
+col2.metric("Artistas", f"{df_f['id_artists'].nunique():,}")
 col3.metric("Popularidad media", round(df_f["track_popularity"].mean(), 2))
 col4.metric("Energía media", round(df_f["energy"].mean(), 2))
 
